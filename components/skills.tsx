@@ -4,16 +4,16 @@ import { CountUp } from '@/components/count-up'
 import { Languages } from 'lucide-react'
 
 const stats = [
-  { value: 5, suffix: '+', label: 'Complex Datasets Analyzed' },
-  { value: 3, suffix: '+', label: 'Dynamic Dashboards Built' },
+  { value: 10, suffix: '+', label: 'Complex Datasets Analyzed' },
+  { value: 7, suffix: '+', label: 'Dynamic Dashboards Built' },
   { value: 24, suffix: 'K+', label: 'Market Records Processed' },
 ]
 
 const topSkills = [
   { rank: 1, name: 'Microsoft Excel' },
-  { rank: 2, name: 'Python' },
-  { rank: 3, name: 'SQL' },
-  { rank: 4, name: 'Power BI' },
+  { rank: 2, name: 'SQL' },
+  { rank: 3, name: 'Power BI' },
+  { rank: 4, name: 'Python' },
   { rank: 5, name: 'Tableau' },
 ]
 
@@ -21,14 +21,20 @@ const skillTags = [
   'Google Sheets',
   'Data Preparation',
   'Data Transformation',
-  'Data Mining',
+  'Data Modeling',
   'Statistical Analysis',
   'Data-driven Decision-Making',
   'Data Visualization',
-  'Data Cleaning',
+  'Data Cleaning & Preprocessing',
   'Web Scraping',
-  'EDA',
-  'Generative AI',
+  'Star Schema Design',
+  'DAX',
+  'Power Query',
+  'Dashboard Design',
+  'Data Storytelling',
+  'Data Analysis',
+  'Predictive Analytics',
+  'Python Libraries (Pandas, NumPy, scikit-learn, Matplotlib, Seaborn)',
   'Prompt Engineering',
 ]
 

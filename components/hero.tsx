@@ -73,7 +73,7 @@ export function Hero() {
           <div className="mt-2 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3.5 py-1.5 text-xs sm:text-sm font-medium text-foreground backdrop-blur-md shadow-sm transition-all hover:border-primary/40">
             <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse shrink-0" />
             <span className="whitespace-normal sm:whitespace-nowrap">
-              ⚡ Delivering interactive dashboards & clean data on time — top quality, fair price.
+              ⚡Delivering interactive dashboards & clean data on time — driving business value.
             </span>
           </div>
 

@@ -4,22 +4,22 @@ import { Briefcase } from 'lucide-react'
 
 const roles = [
   {
-    title: 'Data Analysis Trainee',
+    title: 'Data Analyst Trainee & Team Leader',
     org: 'Digital Egypt Pioneers Initiative (DEPI), MCIT',
     period: 'Jul 2026 – Present',
     points: [
-      'Selected for a 6-month professional track focusing on end-to-end data analysis, SQL, Python, and data visualization.',
-      'Performed EDA and data cleaning on 5+ complex datasets to extract actionable business insights.',
-      'Designed 3+ dynamic dashboards and interactive reports for stakeholders.',
+      'Selected as Team Leader of a 22-member cohort in the 6-month professional data analyst track, serving as liaison between members and administrators.',
+      'Performed EDA and data cleaning on 10+ datasets to extract business insights and designed 7+ interactive dashboards.',
+      'Leading a 6-member team on the final capstone data project, coordinating workflows, and managing task delegation.',
     ],
   },
   {
-    title: 'Summer Intern',
+    title: 'CIB Summer Intern',
     org: 'CIB Egypt',
     period: 'Jul 2026 – Aug 2026',
     points: [
-      'Completed 13+ modules in an intensive summer program focusing on Generative AI applications in banking.',
-      'Covered digital transformation, banking operations, and future-focused technology.',
+      'Completed an intensive summer program featuring daily assessments and a comprehensive final exam.',
+      'Covered banking operations, finance, data analysis, data science, Generative AI, and cybersecurity.',
     ],
   },
 ]

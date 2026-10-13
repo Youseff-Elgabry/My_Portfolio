@@ -21,7 +21,7 @@ export function Education() {
               <div>
                 <div className="flex flex-wrap items-center gap-3">
                   <h3 className="font-display text-xl font-bold">
-                    Bachelor&apos;s Degree, Computer Science
+                    Bachelor&apos;s Degree, Information Systems
                   </h3>
                 </div>
                 <p className="mt-2 leading-relaxed text-muted-foreground">

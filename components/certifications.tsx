@@ -12,26 +12,32 @@ const certifications = [
     image: '/images/cert-gci.jpg',
   },
   {
+    title: 'CIB Summer Internship Certificate (Generative AI in Banking)',
+    issuer: 'Commercial International Bank (CIB Egypt)',
+    period: '07/2026 – 08/2026',
+    note: 'Intensive program covering Generative AI applications in banking, digital transformation, and future tech skills.',
+    image: '/images/cert-cib.png',
+  },
+  {
+    title: 'Data Fundamentals',
+    issuer: 'IBM SkillsBuild',
+    period: 'Oct 2026',
+    note: 'Foundational certification covering core data analysis concepts, data literacy, and industry-standard workflows.',
+    image: '/images/cert-ibm.png',
+  },
+  {
     title: 'Google Data Analytics Professional Certificate',
     issuer: 'INCO Academy / Coursera',
     period: '03/2026 – 05/2026',
-    note: null,
+    note: 'Comprehensive professional certificate covering SQL, Tableau, data cleaning, and business analytics.',
     image: '/images/cert-google.png',
   },
   {
     title: 'AI & ProSkills Training',
     issuer: 'MetLife × INCO Academy',
-    period: null,
-    note: null,
+    period: '10/2026',
+    note: 'Professional training focusing on career readiness, artificial intelligence fundamentals, and core skills.',
     image: '/images/cert-ai.png',
-  },
-  {
-    title: 'CIB Summer Internship Certificate (Generative AI in Banking)',
-    org: 'Commercial International Bank (CIB Egypt)',
-    period: '07/2026 - 08/2026',
-    detail: 'Intensive program covering Generative AI applications in banking, digital transformation, and future tech skills.',
-    highlight: 'Generative AI',
-    image: '/images/cert-cib.png',
   },
 ]
 
@@ -52,6 +58,7 @@ export function Certifications() {
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    priority={i === 0}
                   />
                   <div
                     aria-hidden

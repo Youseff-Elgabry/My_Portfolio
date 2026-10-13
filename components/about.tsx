@@ -1,12 +1,12 @@
 import { Reveal } from '@/components/reveal'
 import { SectionHeading } from '@/components/section-heading'
-import { BarChart3, Lightbulb, Sparkles } from 'lucide-react'
+import { Filter, Lightbulb, Sparkles } from 'lucide-react'
 
 const highlights = [
   {
-    icon: BarChart3,
-    title: 'Exploratory Data Analysis',
-    text: 'Cleaning and exploring large, complex datasets to surface the signal in the noise.',
+    icon: Filter,
+    title: 'Data Cleaning & Preparation',
+    text: 'Transforming messy, incomplete raw data into structured, reliable datasets ready for accurate analysis.',
   },
   {
     icon: Sparkles,
@@ -28,12 +28,12 @@ export function About() {
 
         <div className="mt-12 grid gap-8 lg:grid-cols-[1.4fr_1fr]">
           <Reveal className="rounded-2xl border border-border bg-card p-7 sm:p-9">
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            I am a Data Analyst & Business Intelligence specialist with a Computer Science background, focused on turning complex raw datasets into actionable insights and high-impact interactive dashboards. My analytical workflow emphasizes delivering clean data, precise reporting, and clear decision-making visuals on time and at a fair price.
-          </p>
-          <p className="mt-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Proficient in Python, SQL, Power BI, Tableau, and Excel, I specialize in exploratory data analysis, data cleaning, automated dashboarding, and KPI tracking. I bring a structured problem-solving mindset to help stakeholders transform scattered data into measurable business value.
-          </p>
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+              I am a Data Analyst & Business Intelligence specialist with a Computer Science background, focused on turning complex raw datasets into actionable insights and high-impact interactive dashboards. My analytical workflow emphasizes delivering clean data, precise reporting, and clear decision-making visuals efficiently and on schedule.
+            </p>
+            <p className="mt-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
+              Proficient in Python, SQL, Power BI, Tableau, and Excel, I specialize in exploratory data analysis, data cleaning, data visualization, dashboard design, and KPI tracking. I bring a structured problem-solving mindset to help stakeholders transform scattered data into measurable business value.
+            </p>
           </Reveal>
 
           <div className="grid gap-4">
